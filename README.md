@@ -20,8 +20,10 @@ Ce script permet de supprimer les répertoires de sauvegarde obsolètes, en se b
 chmod u+x ./script_nettoyage_backup.sh
 ./script_nettoyage_backup.sh backup_dir exp_days
 ```
-## backup_dir : Chemin absolu du répertoire contenant les sauvegardes.
-## exp_days : Nombre de jours avant qu’un répertoire soit considéré comme obsolète.
+## backup_dir :
+   Chemin absolu du répertoire contenant les sauvegardes.
+## exp_days : 
+   Nombre de jours avant qu’un répertoire soit considéré comme obsolète.
 ## Exemple
 ```bash
 ./script_nettoyage_backup.sh /home/user/backups 30
@@ -83,8 +85,10 @@ chmod +x script_nettoyage_backup.sh
 chmod +x script_sauvegarde_complete.sh
 chmod +x script_sauvegarde_differentielle.sh
 ```
-'''Test avant production''' : Testez les scripts dans un environnement sécurisé pour éviter toute perte de données.
-'''Gestion des erreurs''': Les scripts incluent des vérifications de base pour éviter les erreurs d’utilisation, mais l’utilisateur est responsable de fournir des chemins valides.
+## Test avant production : 
+   Testez les scripts dans un environnement sécurisé pour éviter toute perte de données.
+## Gestion des erreurs :
+   Les scripts incluent des vérifications de base pour éviter les erreurs d’utilisation, mais l’utilisateur est responsable de fournir des chemins valides.
 
 
 
