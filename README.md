@@ -83,11 +83,8 @@ chmod +x script_nettoyage_backup.sh
 chmod +x script_sauvegarde_complete.sh
 chmod +x script_sauvegarde_differentielle.sh
 ```
-# Test avant production : Testez les scripts dans un environnement sécurisé pour éviter toute perte de données.
-# Gestion des erreurs : Les scripts incluent des vérifications de base pour éviter les erreurs d’utilisation, mais l’utilisateur est responsable de fournir des chemins valides.
-
-# Auteur
-Scripts Bash pour la gestion des sauvegardes, conçus pour simplifier la gestion des fichiers et économiser l’espace disque. N’hésitez pas à contribuer ou à poser des questions pour améliorer ces outils.
+'''Test avant production''' : Testez les scripts dans un environnement sécurisé pour éviter toute perte de données.
+'''Gestion des erreurs''': Les scripts incluent des vérifications de base pour éviter les erreurs d’utilisation, mais l’utilisateur est responsable de fournir des chemins valides.
 
 
 
