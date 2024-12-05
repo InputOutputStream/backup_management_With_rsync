@@ -76,8 +76,8 @@ last_backup_dir : Chemin de la dernière sauvegarde pour effectuer une sauvegard
 Réalise une sauvegarde incrémentielle de /home/user/data vers /backup, en utilisant /backup/last_backup comme référence.
 
 # Dépendances
-rsync : Utilisé pour synchroniser les fichiers.
-date : Pour manipuler et formater les dates.
+```rsync``` : Utilisé pour synchroniser les fichiers.
+```date``` : Pour manipuler et formater les dates.
 # Notes importantes
 Permissions d’exécution : Assurez-vous que les scripts ont les permissions nécessaires pour être exécutés :
 ```bash
